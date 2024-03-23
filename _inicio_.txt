@@ -1,0 +1,41 @@
+
+** Instruções Iniciais **
+Instalar node.js
+Na pasta criada para o projeto, rodar:
+
+    npm i typescript --save-dev
+    npx tsc --init
+
+Criar o código e no terminal:
+
+    npx tsc
+    npm i tslint --save-dev
+    npx tslint --init
+    npm install tslint-config-airbnb
+
+Instalando lib de teste do typescript:
+
+    npm i -D jest @types/jest ts-node --save-dev
+    npm i -D @swc/jest @swc/cli @swc/core
+    npx jest --init
+
+Rodando teste no Jest:
+
+    npm test
+
+Instalando UUID:
+
+    npm i uuid @types/uuid
+
+Instalando Sequelize (e agregados):
+
+    npm install sequelize reflect-metadata sequelize-typescript
+    npm install sqlite3
+
+Configurando parâmetros por causa do sequelize:
+
+    tsconfig.json:
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "strictNullChecks": false, 
+        "resolveJsonModule": true,
