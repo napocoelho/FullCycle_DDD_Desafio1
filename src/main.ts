@@ -1,7 +1,7 @@
-import Customer from "./domain/entity/customer";
-import { Order } from "./domain/entity/order";
-import { Address } from "./domain/entity/address";
-import OrderItem from "./domain/entity/order_item";
+// import Customer from "./domain/entity/customer";
+// import { Order } from "./domain/entity/order";
+// import { Address } from "./domain/entity/address";
+// import OrderItem from "./domain/entity/order_item";
 
 
 // const customerId = customer._id;
