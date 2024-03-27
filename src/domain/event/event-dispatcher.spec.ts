@@ -145,7 +145,7 @@ describe("Domain events tests", () => {
 
         const addressChanged = new AddressChangedEvent({
             id: "ID 2",
-            name: "Customer 2 description",
+            name: "João da Silva Sauro",
             active: false,
             rewardPoints: 0,
             address: {
