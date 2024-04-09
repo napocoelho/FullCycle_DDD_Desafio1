@@ -1,11 +1,11 @@
+import SendEmailWhenProductIsCreatedHandler from "../product/event/product/handler/send-email-when-product-is-created.handler";
+import ProductCreatedEvent from "../product/event/product/product-created.event";
 import AddressChangedEvent from "./customer/address-changed.event";
 import CustomerCreatedEvent from "./customer/customer-created.event";
 import EnviaConsoleLog1CreatedHandler from "./customer/handler/envia-console-log-1-created.handler";
 import EnviaConsoleLog2CreatedHandler from "./customer/handler/envia-console-log-2-created.handler";
 import EnviaConsoleLogChangedHandler from "./customer/handler/envia-console-log-changed.handler";
 import EventDispatcher from "./event-dispatcher";
-import SendEmailWhenProductIsCreatedHandler from "./product/handler/send-email-when-product-is-created.handler";
-import ProductCreatedEvent from "./product/product-created.event";
 
 describe("Domain events tests", () => {
 
